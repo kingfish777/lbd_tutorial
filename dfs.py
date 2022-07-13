@@ -21,6 +21,17 @@ from numpy.random import *  # for random sampling
 import pickle
 
 ############################################
+# Adapted from https://github.com/TechnionTDK/repurposing/blob/master/createSemRepGraph.py
+# Describe here: @inproceedings{Nordon2019SeparatingWF,
+#  title={Separating Wheat from Chaff: Joining Biomedical Knowledge and Patient Data for Repurposing Medications},
+#  author={Galia Nordon and Gideon Koren and Varda Shalev and Eric Horvitz and Kira Radinsky},
+#  booktitle={AAAI},
+#  year={2019}
+#  }
+# URL: https://github.com/TechnionTDK/repurposing/blob/master/createSemRepGraph.py
+############################################
+
+############################################
 # small utility functions
 ############################################
 def save_obj(obj, name ):
